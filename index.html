@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>SEARCHING SITE</title>
+</head>
+<body>
+   <div>
+     Insert words : 
+     <form action="index" method="get">
+        <input type="text" name="text_get">
+        <input type="Submit" value="Submit">
+     </form>
+	<ul>
+    	<li>
+      	<a href = "https://www.google.co.kr/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#newwindow=1&q={{ variable_get }}"> Google </a>
+		</li>
+      	<li>
+      	<a href = "http://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ie=utf8&query={{ variable_get }}"> Naver </a>
+		</li>
+		<li>
+    	<a href = "http://search.daum.net/search?w=tot&DA=YZR&t__nil_searchbox=btn&sug=&o=&q={{ variable_get }}"> Daum </a>
+		</li>
+	</ul>	
+   </div>
+</body>
+</html>
